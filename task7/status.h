@@ -1,0 +1,15 @@
+#ifndef STATUS_H
+#define STATUS_H
+
+typedef enum {
+    SUCCESS = 0,
+    ERROR_INVALID_PARAMETER,
+    ERROR_FILE_OPEN,
+    ERROR_MEMORY_ALLOCATION,
+    ERROR_UNKNOWN_FLAG,
+    ERROR_FILE_READ,
+    ERROR_FILE_WRITE,
+    ERROR_SAME_FILE
+} status;
+
+#endif
